@@ -20,6 +20,8 @@
 		745EACD92A914FE2000E72BA /* SwiftfulThinkingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745EACD82A914FE2000E72BA /* SwiftfulThinkingUITestsLaunchTests.swift */; };
 		745EACE62A915028000E72BA /* ForeachLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745EACE52A915028000E72BA /* ForeachLoop.swift */; };
 		749F54132A979E2000C0BC2B /* StateProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F54122A979E2000C0BC2B /* StateProperty.swift */; };
+		749F54152A9807AC00C0BC2B /* ExtractSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F54142A9807AC00C0BC2B /* ExtractSubview.swift */; };
+		749F54172A981CC100C0BC2B /* TernaryOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F54162A981CC100C0BC2B /* TernaryOperator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		745EACD82A914FE2000E72BA /* SwiftfulThinkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		745EACE52A915028000E72BA /* ForeachLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeachLoop.swift; sourceTree = "<group>"; };
 		749F54122A979E2000C0BC2B /* StateProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateProperty.swift; sourceTree = "<group>"; };
+		749F54142A9807AC00C0BC2B /* ExtractSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubview.swift; sourceTree = "<group>"; };
+		749F54162A981CC100C0BC2B /* TernaryOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 				744126952A9228DF00BF6989 /* GridView.swift */,
 				744A57082A955F130000BADD /* Gridview2.swift */,
 				749F54122A979E2000C0BC2B /* StateProperty.swift */,
+				749F54142A9807AC00C0BC2B /* ExtractSubview.swift */,
+				749F54162A981CC100C0BC2B /* TernaryOperator.swift */,
 				745EACBF2A914FE2000E72BA /* Assets.xcassets */,
 				745EACC12A914FE2000E72BA /* Preview Content */,
 			);
@@ -276,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				741BB3E52A9152AF00C7A923 /* initsAndEnums.swift in Sources */,
+				749F54172A981CC100C0BC2B /* TernaryOperator.swift in Sources */,
+				749F54152A9807AC00C0BC2B /* ExtractSubview.swift in Sources */,
 				744A57092A955F130000BADD /* Gridview2.swift in Sources */,
 				745EACBE2A914FE1000E72BA /* ContentView.swift in Sources */,
 				745EACE62A915028000E72BA /* ForeachLoop.swift in Sources */,
