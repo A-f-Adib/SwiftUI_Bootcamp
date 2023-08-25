@@ -14,7 +14,7 @@ struct ExtractSubview: View {
             Color.green
                 .ignoresSafeArea()
             
-            HStack{
+         HStack{
             ExtractedView(Title: "Apples", Count: 10, color: .red)
             ExtractedView(Title: "Oranges", Count: 20, color: .orange)
             ExtractedView(Title: "Lichis", Count: 30, color: .pink)
@@ -37,14 +37,15 @@ struct ExtractedView: View {
     let color : Color
     
     var body: some View {
-        VStack(spacing :0){
+        VStack {
             
             Text("\(Count)")
                 .padding()
             Text(Title)
-                .padding(5)
+                .padding(.vertical)
+                .padding(.horizontal)
                 .foregroundColor(Color.white)
-        }       .font(.largeTitle)
+        }       .font(.title)
             .background(color)
             .cornerRadius(15)
     }

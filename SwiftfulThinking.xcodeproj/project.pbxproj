@@ -22,6 +22,7 @@
 		749F54132A979E2000C0BC2B /* StateProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F54122A979E2000C0BC2B /* StateProperty.swift */; };
 		749F54152A9807AC00C0BC2B /* ExtractSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F54142A9807AC00C0BC2B /* ExtractSubview.swift */; };
 		749F54172A981CC100C0BC2B /* TernaryOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F54162A981CC100C0BC2B /* TernaryOperator.swift */; };
+		749F54192A9822F200C0BC2B /* ConditinalStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F54182A9822F200C0BC2B /* ConditinalStatement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		749F54122A979E2000C0BC2B /* StateProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateProperty.swift; sourceTree = "<group>"; };
 		749F54142A9807AC00C0BC2B /* ExtractSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubview.swift; sourceTree = "<group>"; };
 		749F54162A981CC100C0BC2B /* TernaryOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperator.swift; sourceTree = "<group>"; };
+		749F54182A9822F200C0BC2B /* ConditinalStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditinalStatement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				749F54122A979E2000C0BC2B /* StateProperty.swift */,
 				749F54142A9807AC00C0BC2B /* ExtractSubview.swift */,
 				749F54162A981CC100C0BC2B /* TernaryOperator.swift */,
+				749F54182A9822F200C0BC2B /* ConditinalStatement.swift */,
 				745EACBF2A914FE2000E72BA /* Assets.xcassets */,
 				745EACC12A914FE2000E72BA /* Preview Content */,
 			);
@@ -283,6 +286,7 @@
 			files = (
 				741BB3E52A9152AF00C7A923 /* initsAndEnums.swift in Sources */,
 				749F54172A981CC100C0BC2B /* TernaryOperator.swift in Sources */,
+				749F54192A9822F200C0BC2B /* ConditinalStatement.swift in Sources */,
 				749F54152A9807AC00C0BC2B /* ExtractSubview.swift in Sources */,
 				744A57092A955F130000BADD /* Gridview2.swift in Sources */,
 				745EACBE2A914FE1000E72BA /* ContentView.swift in Sources */,

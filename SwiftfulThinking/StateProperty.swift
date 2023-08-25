@@ -18,12 +18,17 @@ struct StateProperty: View {
             
             backgroundColor
                 .ignoresSafeArea(.all)
-            VStack(spacing: 20){
+            
+            
+            VStack(spacing: 20)
+            {
                 Text(Title)
                     .font(.largeTitle)
                 Text("count \(Count)")
                     .underline()
-                HStack(spacing : 20){
+                
+                HStack(spacing : 20)
+                {
                     
                     Button("button 1") {
                         backgroundColor = .yellow
