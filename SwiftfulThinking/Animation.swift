@@ -35,8 +35,8 @@ struct AnimationView: View {
                     withAnimation(
                         Animation
                         .default
-//                            .repeatCount(6, autoreverses: true)
-                            .repeatForever())
+                        .repeatCount(1, autoreverses: true))
+//                            .repeatForever())
                     {
                         isAnimated.toggle()
                     }

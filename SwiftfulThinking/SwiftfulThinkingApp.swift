@@ -11,7 +11,10 @@ import SwiftUI
 struct SwiftfulThinkingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//        ContentView()
+//            TextEditorView()
+//            AppStorageView()
+            TextFieldView()
         }
     }
 }
